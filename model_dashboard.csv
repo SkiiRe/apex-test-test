@@ -1,0 +1,4 @@
+Model,AUC_ROC,Accuracy,False_Positive_Rate,Profitability_USD,TP,FP,TN,FN
+Logistic Regression,0.927,0.957,0.083,1973693.0,232,5,55,8
+Decision Tree,0.947,0.917,0.083,1881361.0,220,5,55,20
+Random Forest,0.942,0.957,0.083,1973693.0,232,5,55,8

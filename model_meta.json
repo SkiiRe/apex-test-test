@@ -1,0 +1,161 @@
+{
+  "winning_model": "Logistic Regression",
+  "decision_threshold": 0.65,
+  "metrics": {
+    "AUC_ROC": 0.927,
+    "Accuracy": 0.957,
+    "False_Positive_Rate": 0.083,
+    "Profitability_USD": 1973693.0,
+    "TP": 232.0,
+    "FP": 5.0,
+    "TN": 55.0,
+    "FN": 8.0
+  },
+  "features": [
+    "Age",
+    "Monthly_Income",
+    "Debt_to_Income",
+    "Credit_Score",
+    "Loan_Amount",
+    "Employment_Years",
+    "Dependants",
+    "Prior_Defaults",
+    "Collateral_Value",
+    "Credit_Accounts",
+    "Utility_Latency",
+    "App_Session_Time",
+    "Social_Sentiment",
+    "Mobile_Data_Use",
+    "Ecommerce_Freq",
+    "Savings_Score",
+    "Community_Score",
+    "Night_Activity",
+    "Contact_Diversity",
+    "Bill_Consistency"
+  ],
+  "numeric_features": [
+    "Age",
+    "Monthly_Income",
+    "Debt_to_Income",
+    "Credit_Score",
+    "Loan_Amount",
+    "Employment_Years",
+    "Dependants",
+    "Prior_Defaults",
+    "Collateral_Value",
+    "Credit_Accounts",
+    "Utility_Latency",
+    "App_Session_Time",
+    "Social_Sentiment",
+    "Mobile_Data_Use",
+    "Ecommerce_Freq",
+    "Savings_Score",
+    "Community_Score",
+    "Night_Activity",
+    "Contact_Diversity",
+    "Bill_Consistency"
+  ],
+  "training_default_rate": 0.2,
+  "feature_ranges": {
+    "Age": {
+      "min": 18.0,
+      "max": 70.0,
+      "median": 42.0
+    },
+    "Monthly_Income": {
+      "min": 436.75,
+      "max": 25000.0,
+      "median": 5082.49
+    },
+    "Debt_to_Income": {
+      "min": 0.05,
+      "max": 0.92,
+      "median": 0.22635
+    },
+    "Credit_Score": {
+      "min": 300.0,
+      "max": 850.0,
+      "median": 660.0
+    },
+    "Loan_Amount": {
+      "min": 5478.13,
+      "max": 90000.0,
+      "median": 22000.5
+    },
+    "Employment_Years": {
+      "min": 0.0,
+      "max": 40.0,
+      "median": 4.97
+    },
+    "Dependants": {
+      "min": 0.0,
+      "max": 7.0,
+      "median": 1.0
+    },
+    "Prior_Defaults": {
+      "min": 0.0,
+      "max": 5.0,
+      "median": 0.0
+    },
+    "Collateral_Value": {
+      "min": 4288.56,
+      "max": 298727.15,
+      "median": 35672.505000000005
+    },
+    "Credit_Accounts": {
+      "min": 1.0,
+      "max": 19.0,
+      "median": 7.0
+    },
+    "Utility_Latency": {
+      "min": 0.01,
+      "max": 45.0,
+      "median": 1.26
+    },
+    "App_Session_Time": {
+      "min": 0.0,
+      "max": 142.73,
+      "median": 73.00999999999999
+    },
+    "Social_Sentiment": {
+      "min": -1.0,
+      "max": 1.0,
+      "median": 0.19845000000000002
+    },
+    "Mobile_Data_Use": {
+      "min": 0.51,
+      "max": 60.0,
+      "median": 11.035
+    },
+    "Ecommerce_Freq": {
+      "min": 0.0,
+      "max": 26.0,
+      "median": 11.0
+    },
+    "Savings_Score": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 64.195
+    },
+    "Community_Score": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 70.36
+    },
+    "Night_Activity": {
+      "min": 0.0061,
+      "max": 0.9133,
+      "median": 0.2192
+    },
+    "Contact_Diversity": {
+      "min": 37.0,
+      "max": 316.0,
+      "median": 254.0
+    },
+    "Bill_Consistency": {
+      "min": 0.0013,
+      "max": 0.994,
+      "median": 0.7167
+    }
+  }
+}
